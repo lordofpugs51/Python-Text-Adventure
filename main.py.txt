@@ -1,7 +1,13 @@
+### Daniel jasper
+### you have to make choices that may have good or bad out comes 
+
+
+
+
 ### Print a welcome message
 print("you were walking when you slpped and fell and were knocked unconscious!")
 print("when you woke up you were in a mysterious all white room with one door.")
-print("Do you want to leave the white room or wait? put white room or wait")
+print("Do you want to leave the white room or wait or sleep?,put white room or wait or sleep")
 
 ### Prompt user for a choice
 roomChoice = input("> ")
@@ -43,5 +49,26 @@ elif(roomChoice == "wait"):
     print("You wake up in your bed. It was all a dream or was it -the end.")
   else:
     print("Invalid choice. Please enter yes or no.")
+################
+if(roomChoice == "sleep"):
+  print("You chose to sleep in the room.")
+  print("do you want to sleep some more yes or no.")
+  
+
+  sleepChoice = input("> ")
+
+  if(sleepChoice == "no"):
+    print("a man with a mouth with a creepy big smile that almost seems on the point to tearing sit on top of you when you meet eye contact!")
+    print("he stabbed you in the throat!")
+    print("You are now dying as you bleed out.")
+  elif(sleepChoice == "yes"):
+    print("You decide to sleep.")
+    print("you wake up outside a forest.")
+    print("you have a searing pain in the left side of your stomach with a big scar!")
+    print("You go to the the nearest ER when you finally get in.")
+    print("You're missing your left kidney.")
+  else:
+    print("Invalid choice. Please enter yes or no.")
+
 else:
-  print("Invalid choice. Please enter white room or wait.")
+  print("Invalid choice. Please enter white room or wait or sleep.")
