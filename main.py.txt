@@ -5,7 +5,7 @@
 
 
 ### Print a welcome message
-print("you were walking when you slpped and fell and were knocked unconscious!")
+print("you were walking when you slipped and fell and were knocked unconscious!")
 print("when you woke up you were in a mysterious all white room with one door.")
 print("Do you want to leave the white room or wait or sleep?,put white room or wait or sleep")
 
