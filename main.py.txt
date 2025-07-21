@@ -1,0 +1,47 @@
+### Print a welcome message
+print("you were walking when you slpped and fell and were knocked unconscious!")
+print("when you woke up you were in a mysterious all white room with one door.")
+print("Do you want to leave the white room or wait? put white room or wait")
+
+### Prompt user for a choice
+roomChoice = input("> ")
+
+if(roomChoice == "white room"):
+  print("You leave the white room.")
+  print("As you walk in to the next room with a number 1 above it, you see a man in the corner of the room.")
+  print("do you walk to the man yes or no?")
+
+  walktomanChoice = input("> ")
+
+  if(walktomanChoice == "yes"):
+    print("You walk to him as he notice you his mouth turn to creepy big smile that almost seems on the point to tearing.")
+    print("he walk up to you and stabbed you in the throat.")
+    print("You are now dying as you bleed out.")
+  elif(walktomanChoice == "no"):
+    print("You decide to run pass him to the next room.")
+    print("You turn around and see he running with huge frown.")
+    print("You barely make it to room 2 when a knife get stuck in the door lucky the door lock it self.")
+    print("then gas come out of the air ducts and knocked you unconscious.")
+    print("You wake up in your bed. It was all a dream or was it -the end.")
+  else:
+    print("Invalid choice. Please enter yes or no.")
+elif(roomChoice == "wait"):
+  print("You chose to stay in the room.")
+  print("do you want to wait again yes or no.")
+  
+
+  waitChoice = input("> ")
+
+  if(waitChoice == "yes"):
+    print("a man with a mouth with a creepy big smile that almost seems on the point to tearing come though the door and run at you!")
+    print("he stabbed you in the throat!")
+    print("You are now dying as you bleed out.")
+  elif(waitChoice == "no"):
+    print("You decide not to stay and leave to the next room that has a number 1 above it .")
+    print("you walk in their no one there.")
+    print("you walk to the next room with a 2 above when the door lock behind you and gas come out of the air ducts and knocked you unconscious")
+    print("You wake up in your bed. It was all a dream or was it -the end.")
+  else:
+    print("Invalid choice. Please enter yes or no.")
+else:
+  print("Invalid choice. Please enter white room or wait.")
